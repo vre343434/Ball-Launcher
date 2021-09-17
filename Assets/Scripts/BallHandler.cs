@@ -31,6 +31,8 @@ public class BallHandler : MonoBehaviour
                 LaunchBall();
             }
 
+            isDragging = false;
+
             return;
         }
 
